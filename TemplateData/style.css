@@ -2,13 +2,16 @@ body { padding: 0; margin: 0 }
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
-#unity-canvas { background: #2F1F1F }
+/* Loading Screen Background Color */
+#unity-canvas { background: #2F1F1F } /* #EAE8DC */
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
-/* Loading Screen Progress Bar */
+/* Loading Screen Progress Bar Parent */
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
 /* Loading Screen Logo */
 #unity-logo { width: 195px; height: 219px; background: url('unity-logo-dark.png') no-repeat center }
+/* Loading Screen Prgress Bar Empty */
 #unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; margin-left: 27.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
+/* Loading Screen Prgress Bar Full */
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
